@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scroll bar stylings */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: #DDDEE0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #C7C9CC;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+ /* Hides the scrollbar (for WebKit browsers like Chrome and Safari) */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
